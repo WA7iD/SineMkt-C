@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/master.css" />
+
+    <title>SineMkt</title>
+  </head>
+  <!-- ======================= START HEADER ======================= -->
+  <div class="header">
+    <input type="radio" name="search" id="search" class="" />
+    <input type="radio" name="search" id="close" class="" />
+    <div class="search">
+      <div
+        class="container d-flex justify-content-between align-items-center h-100"
+      >
+        <div class="lft">
+          <i class="ri-search-line"></i>
+          <input type="text" placeholder="Search" />
+        </div>
+        <label for="close"><i class="ri-close-fill"></i></label>
+      </div>
+    </div>
+    <nav class="nav__holder">
+      <div class="container d-flex justify-content-between">
+        <h1>
+          <a href="#"> Sine<span style="color: #e99c2e">Mkt</span>.</a>
+        </h1>
+        <div class="burger__icon">
+          <i class="ri-menu-line"></i>
+        </div>
+        <ul>
+          <a class="" href="#home"> <li class="active">Home</li></a>
+          <a class="" href="#newarrivals"><li>New Arrival</li></a>
+          <a class="" href="#featuress"><li>Features</li></a>
+          <a class="" href="#blogs"><li>Blog</li></a>
+          <a class="" href="#contact"> <li>Contact</li></a>
+        </ul>
+
+        <!-- <nav class="navbar navbar-expand-lg navbar-light">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="active" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+              <a class="" href="#newarrivals">New Arrival</a>
+              <a class="" href="#featuress">Features</a>
+              <a class="" href="#blogs">Blog</a>
+              <a class="" href="#contact">Contact</a>
+            </div>
+          </div>
+        </nav> -->
+        <div class="icons">
+          <label for="search"><i class="ri-search-line"></i></label>
+          <i class="ri-settings-5-line"></i>
+          <i class="ri-shopping-cart-2-line"></i>
+          <div class="cart__content">
+            <div class="cart__item d-flex justify-content-between">
+              <div class="content d-flex align-items-center">
+                <div class="pic">
+                  <img src="images/arrivals1.png" alt="" />
+                </div>
+                <div class="txt">
+                  <h4>
+                    Arm <br />
+                    Chair
+                  </h4>
+                  <p>1 X - $180.00</p>
+                </div>
+              </div>
+              <div class="x">
+                <i class="ri-close-fill"></i>
+              </div>
+            </div>
+            <div class="cart__item d-flex justify-content-between">
+              <div class="content d-flex align-items-center">
+                <div class="pic">
+                  <img src="images/arrivals2.png" alt="" />
+                </div>
+                <div class="txt">
+                  <h4>
+                    Single <br />
+                    Armchair
+                  </h4>
+                  <p>1 X - $180.00</p>
+                </div>
+              </div>
+              <div class="x">
+                <i class="ri-close-fill"></i>
+              </div>
+            </div>
+            <div class="cart__item d-flex justify-content-between">
+              <div class="content d-flex align-items-center">
+                <div class="pic">
+                  <img src="images/arrivals3.png" alt="" />
+                </div>
+                <div class="txt">
+                  <h4>
+                    Wooden Arn <br />
+                    Chair
+                  </h4>
+                  <p>1 X - $180.00</p>
+                </div>
+              </div>
+              <div class="x">
+                <i class="ri-close-fill"></i>
+              </div>
+            </div>
+            <div class="total d-flex justify-content-between">
+              <p>Total: $0.00</p>
+              <a href="#">View Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- ======================= END HEADER ======================= -->
+
+  <!-- ======================= START HOME ======================= -->
+  <div class="home" id="home">
+    <div class="container">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="2500">
+            <div class="item d-block w-100">
+              <div class="holder d-flex">
+                <div class="text col-lg-7 col-sm-12">
+                  <h3>Great Design Collection</h3>
+                  <h1>Valvet Accent Arm Chair</h1>
+                  <p>
+                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit,
+                    Sed Do Eiuiana Smod Tempor Ut Labore Et Dolore Magna Aliqua.
+                    Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco
+                    Laboris Nisi Ut Aliquip.
+                  </p>
+                  <h5>$ 299.00<span>$ 399.00</span></h5>
+                  <div class="btns">
+                    <a href="#"
+                      ><i class="ri-add-circle-line"></i>Add to Cart</a
+                    >
+                    <a class="second" href="#">More Info</a>
+                  </div>
+                </div>
+                <div class="pic col-lg-5 col-sm-12">
+                  <img src="images/slider3.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="2500">
+            <div class="item d-block w-100">
+              <div class="holder d-flex">
+                <div class="text col-lg-7 col-sm-12">
+                  <h3>Great Design Collection</h3>
+                  <h1>Cloth Covered Accent Chair</h1>
+                  <p>
+                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit,
+                    Sed Do Eiuiana Smod Tempor Ut Labore Et Dolore Magna Aliqua.
+                    Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco
+                    Laboris Nisi Ut Aliquip.
+                  </p>
+                  <h5>
+                    $ 399.00
+
+                    <span>$ 499.00</span>
+                  </h5>
+                  <div class="btns">
+                    <a href="#">
+                      <i class="ri-add-circle-line"></i>Add to Cart</a
+                    >
+                    <a href="#">More info</a>
+                  </div>
+                </div>
+                <div class="pic col-lg-5 col-sm-12">
+                  <img src="images/slider2.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="2500">
+            <div class="item d-block w-100">
+              <div class="holder d-flex">
+                <div class="text col-lg-7 col-sm-12">
+                  <h3>Great Design Collection</h3>
+                  <h1>Mapple Wood Accent Chair</h1>
+                  <p>
+                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit,
+                    Sed Do Eiuiana Smod Tempor Ut Labore Et Dolore Magna Aliqua.
+                    Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco
+                    Laboris Nisi Ut Aliquip.
+                  </p>
+                  <h5>
+                    $ 199.00
+
+                    <span>$ 299.00</span>
+                  </h5>
+                  <div class="btns">
+                    <a href="#"
+                      ><i class="ri-add-circle-line"></i>Add to Cart</a
+                    >
+                    <a href="#">More info</a>
+                  </div>
+                </div>
+                <div class="pic col-lg-5 col-sm-12">
+                  <img src="images/slider1.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ======================= END HOME ======================= -->
+
+  <!-- ======================= START SHOP ======================= -->
+  <div class="shop">
+    <div class="container">
+      <div class="items d-flex flex-wrap">
+        <div class="item second col-lg-6 col-md-12 col-sm-12">
+          <div class="content">
+            <div class="pic col-4">
+              <img src="images/p2.png" alt="" />
+            </div>
+            <div class="text col-8">
+              <h3>Latest Designed Stool and Chair</h3>
+              <p>
+                Edi Ut Perspiciatis Unde Omnis Iste Natusina Error Sit
+                Voluptatem Accusantium Doloret Mque Laudantium, Totam Rem
+                Aperiam.
+              </p>
+              <h4>
+                Sales Start from <span style="color: #e99c2e">$99.00</span>
+              </h4>
+              <a href="#">Discover More</a>
+            </div>
+          </div>
+        </div>
+        <div class="item first col-lg-3 col-md-6 col-sm-6">
+          <div class="content">
+            <img src="images/p1.png" alt="" />
+
+            <h3>Arm Chair</h3>
+            <p>
+              Nemo enim ipsam voluptatem quia volu ptas sit asperna aut odit aut
+            </p>
+          </div>
+        </div>
+
+        <div class="item third col-lg-3 col-md-6 col-sm-6">
+          <div class="content">
+            <img src="images/p3.png" alt="" />
+            <h3>Hanging Lamp</h3>
+            <p>
+              Nemo enim ipsam voluptatem quia volu ptas sit asperna aut odit aut
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================= END SHOP ======================= -->
+
+  <!-- ======================= START ARRIVAL ======================= -->
+  <div class="arrivals" id="newarrivals">
+    <div class="container">
+      <div class="mainhead">
+        <h1>new arrivals</h1>
+      </div>
+      <div class="arrivals__products">
+        <div class="row">
+          <div class="proudct col-lg-3 col-md-6">
+            <div class="content" sales="orange">
+              <div class="pic">
+                <img src="images/arrivals1.png" alt="" />
+                <div class="overlay"></div>
+                <div class="info">
+                  <div class="icn">
+                    <i class="ri-shopping-cart-2-line"></i>
+                    <a href="#">Add To Cart</a>
+                  </div>
+                  <div class="icn">
+                    <i class="ri-heart-line"></i>
+                    <i class="ri-fullscreen-line"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="text">
+                <h4>Wooden Chair</h4>
+                <p>$65.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="proudct col-lg-3 col-md-6">
+            <div class="content" sales="green">
+              <div class="pic">
+                <img src="images/arrivals2.png" alt="" />
+                <div class="overlay"></div>
+                <div class="info">
+                  <div class="icn">
+                    <i class="ri-shopping-cart-2-line"></i>
+                    <a href="#">Add To Cart</a>
+                  </div>
+                  <div class="icn">
+                    <i class="ri-heart-line"></i>
+                    <i class="ri-fullscreen-line"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="text">
+                <h4>Single Armchair</h4>
+                <p>$80.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="proudct col-lg-3 col-md-6">
+            <div class="content">
+              <div class="pic">
+                <img src="images/arrivals3.png" alt="" />
+                <div class="overlay"></div>
+                <div class="info">
+                  <div class="icn">
+                    <i class="ri-shopping-cart-2-line"></i>
+                    <a href="#">Add To Cart</a>
+                  </div>
+                  <div class="icn">
+                    <i class="ri-heart-line"></i>
+                    <i class="ri-fullscreen-line"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="text">
+                <h4>Wooden Armchair</h4>
+                <p>$40.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="proudct col-lg-3 col-md-6">
+            <div class="content" sales="orange">
+              <div class="pic">
+                <img src="images/arrivals4.png" alt="" />
+                <div class="overlay"></div>
+                <div class="info">
+                  <div class="icn">
+                    <i class="ri-shopping-cart-2-line"></i>
+                    <a href="#">Add To Cart</a>
+                  </div>
+                  <div class="icn">
+                    <i class="ri-heart-line"></i>
+                    <i class="ri-fullscreen-line"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="text">
+                <h4>Stylish Chair</h4>
+                <p>$100.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="proudct col-lg-3 col-md-6">
+            <div class="content">
+              <div class="pic">
+                <img src="images/arrivals5.png" alt="" />
+                <div class="overlay"></div>
+                <div class="info">
+                  <div class="icn">
+                    <i class="ri-shopping-cart-2-line"></i>
+                    <a href="#">Add To Cart</a>
+                  </div>
+                  <div class="icn">
+                    <i class="ri-heart-line"></i>
+                    <i class="ri-fullscreen-line"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="text">
+                <h4>Modern Chair</h4>
+                <p>$120.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="proudct col-lg-3 col-md-6">
+            <div class="content" sales="orange">
+              <div class="pic">
+                <img src="images/arrivals6.png" alt="" />
+                <div class="overlay"></div>
+                <div class="info">
+                  <div class="icn">
+                    <i class="ri-shopping-cart-2-line"></i>
+                    <a href="#">Add To Cart</a>
+                  </div>
+                  <div class="icn">
+                    <i class="ri-heart-line"></i>
+                    <i class="ri-fullscreen-line"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="text">
+                <h4>Mapple Wood Dinning Table</h4>
+                <p>$140.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="proudct col-lg-3 col-md-6">
+            <div class="content" sales="green">
+              <div class="pic">
+                <img src="images/arrivals7.png" alt="" />
+                <div class="overlay"></div>
+                <div class="info">
+                  <div class="icn">
+                    <i class="ri-shopping-cart-2-line"></i>
+                    <a href="#">Add To Cart</a>
+                  </div>
+                  <div class="icn">
+                    <i class="ri-heart-line"></i>
+                    <i class="ri-fullscreen-line"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="text">
+                <h4>Arm Chair</h4>
+                <p>$90.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="proudct col-lg-3 col-md-6">
+            <div class="content">
+              <div class="pic">
+                <img src="images/arrivals8.png" alt="" />
+                <div class="overlay"></div>
+                <div class="info">
+                  <div class="icn">
+                    <i class="ri-shopping-cart-2-line"></i>
+                    <a href="#">Add To Cart</a>
+                  </div>
+                  <div class="icn">
+                    <i class="ri-heart-line"></i>
+                    <i class="ri-fullscreen-line"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="text">
+                <h4>Wooden Bed</h4>
+                <p>$140.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ======================= END ARRIVAL ======================= -->
+
+  <!-- ======================= START SOFA ======================= -->
+  <div
+    id="carouselExampleFade"
+    class="carousel slide carousel-fade"
+    data-ride="carousel"
+  >
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-interval="3000">
+        <div class="sofa sofa1">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="content">
+              <h1>unlimited sofa collection</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <h4>strting from <span>$ 199</span></h4>
+              <a href="#">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" data-interval="3000">
+        <div class="sofa sofa2">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="content">
+              <h1>Unlimited Dainning Table Collection</h1>
+              <p>
+                Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Eli, Sed Do
+                Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut
+                Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco Laboris
+                Nisi Ut Aliquip Ex Ea Commodo Consequat
+              </p>
+              <h4>strting from <span>$ 299</span></h4>
+              <a href="#">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ======================= END SOFA ======================= -->
+
+  <!-- ======================= START FEATURE ======================= -->
+  <div class="features" id="featuress">
+    <div class="container">
+      <div class="mainhead">
+        <h1>featured products</h1>
+      </div>
+      <div class="features__porducts">
+        <div class="row">
+          <div class="porduct col-lg-3 col-md-6">
+            <div class="content">
+              <div class="pic">
+                <img src="images/f1.jpg" alt="" />
+              </div>
+              <div class="stars">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill disabled"></i>
+                <p>(45 Review)</p>
+              </div>
+              <h3>Designed Sofa</h3>
+              <p>$160.00</p>
+            </div>
+          </div>
+          <div class="porduct col-lg-3 col-md-6">
+            <div class="content">
+              <div class="pic">
+                <img src="images/f2.jpg" alt="" />
+              </div>
+              <div class="stars">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill disabled"></i>
+                <p>(45 Review)</p>
+              </div>
+              <h3>Dinning Table</h3>
+              <p>$200.00</p>
+            </div>
+          </div>
+          <div class="porduct col-lg-3 col-md-6">
+            <div class="content">
+              <div class="pic">
+                <img src="images/f3.jpg" alt="" />
+              </div>
+              <div class="stars">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill disabled"></i>
+                <p>(45 Review)</p>
+              </div>
+              <h3>Chair And Table</h3>
+              <p>$100.00</p>
+            </div>
+          </div>
+          <div class="porduct col-lg-3 col-md-6">
+            <div class="content">
+              <div class="pic">
+                <img src="images/f4.jpg" alt="" />
+              </div>
+              <div class="stars">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill disabled"></i>
+                <p>(45 Review)</p>
+              </div>
+              <h3>Modern Arm Chair</h3>
+              <p>$299.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ======================= END FEATURE ======================= -->
+
+  <!-- ======================= START BLOG ======================= -->
+  <div class="blogs" id="blogs">
+    <div class="container">
+      <div class="mainhead">
+        <h1>latest blog</h1>
+      </div>
+      <div class="row">
+        <div class="blog col-lg-4 col-sm-12">
+          <div class="pic">
+            <div class="overlay"></div>
+            <img src="images/b1.jpg" alt="" />
+          </div>
+          <div class="text">
+            <h3>Why Brands are Looking at Local Language</h3>
+            <h5>By Robert Norby / 18th March 2018</h5>
+            <p>
+              Nemo Enim Ipsam Voluptatem Quia Voluptas Sit Aspernatur Aut Odit
+              Aut Fugit, Sed Quia Consequuntur Magni Dolores Eos Qui Ratione
+              Voluptatem Sequi Nesciunt....
+            </p>
+          </div>
+        </div>
+        <div class="blog col-lg-4 col-sm-12">
+          <div class="pic">
+            <div class="overlay"></div>
+            <img src="images/b2.jpg" alt="" />
+          </div>
+          <div class="text">
+            <h3>Why Brands are Looking at Local Language</h3>
+            <h5>By Robert Norby / 18th March 2018</h5>
+            <p>
+              Nemo Enim Ipsam Voluptatem Quia Voluptas Sit Aspernatur Aut Odit
+              Aut Fugit, Sed Quia Consequuntur Magni Dolores Eos Qui Ratione
+              Voluptatem Sequi Nesciunt....
+            </p>
+          </div>
+        </div>
+        <div class="blog col-lg-4 col-sm-12">
+          <div class="pic">
+            <div class="overlay"></div>
+            <img src="images/b3.jpg" alt="" />
+          </div>
+          <div class="text">
+            <h3>Why Brands are Looking at Local Language</h3>
+            <h5>By Robert Norby / 18th March 2018</h5>
+            <p>
+              Nemo Enim Ipsam Voluptatem Quia Voluptas Sit Aspernatur Aut Odit
+              Aut Fugit, Sed Quia Consequuntur Magni Dolores Eos Qui Ratione
+              Voluptatem Sequi Nesciunt....
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ======================= END BLOG ======================= -->
+
+  <!--======================= START CLINTES =======================  -->
+  <div class="clintes">
+    <div class="container">
+      <div class="clints__holder">
+        <img src="images/c1.png" alt="" />
+        <img src="images/c2.png" alt="" />
+        <img src="images/c3.png" alt="" />
+        <img src="images/c4.png" alt="" />
+        <img src="images/c5.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <!--======================= END CLINTES =======================  -->
+
+  <!--======================= START CONTACT =======================  -->
+  <div class="contact" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="collm col-3">
+          <h1>Information</h1>
+          <ul>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>News</li>
+            <li>Store</li>
+          </ul>
+        </div>
+        <div class="collm col-3">
+          <h1>Collections</h1>
+          <ul>
+            <li>Wooden Chair</li>
+            <li>Royal Cloth Sofa</li>
+            <li>Accent Chair</li>
+            <li>Bed</li>
+            <li>Hanging Lamp</li>
+          </ul>
+        </div>
+        <div class="collm col-3">
+          <h1>My Accounts</h1>
+          <ul>
+            <li>My Account</li>
+            <li>Wishlist</li>
+            <li>Community</li>
+            <li>Order History</li>
+            <li>My Cart</li>
+          </ul>
+        </div>
+        <div class="collm col-3">
+          <h1>Newsletter</h1>
+          <p>Subscribe to get latest news,update and information.</p>
+          <div class="send">
+            <i class="ri-send-plane-fill"></i>
+            <input type="text" placeholder="Enter Email Here...." />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--======================= END CONTACT =======================  -->
+
+  <!--======================= START FOOTER =======================  -->
+  <footer>
+    <div class="container">
+      <div class="social">
+        <i class="ri-facebook-fill"></i>
+        <i class="ri-instagram-line"></i>
+        <i class="ri-linkedin-fill"></i>
+        <i class="ri-pinterest-fill"></i>
+        <i class="ri-behance-fill"></i>
+      </div>
+      <p>©Copyright. Designed And Developed By Themesine</p>
+    </div>
+  </footer>
+  <!--======================= END FOOTER =======================  -->
+
+  <!-- ======================= SCRIPT ======================= -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"
+  ></script>
+  <script src="main.js"></script>
+  <body></body>
+</html>
